@@ -26,7 +26,6 @@ class ControladorFormularios
     static public function ctrSeleccionarRegistros($item, $valor)
     {
         $tabla = "registros";
-        #falta crear mdlSeleccionarRegistros x eso marca error
         $respuesta = ModeloFormularios::mdlSeleccionarRegistros($tabla, $item, $valor);
         return $respuesta;
     }
@@ -70,7 +69,7 @@ class ControladorFormularios
     /*==== Actualizar Registro ==== metodo estatico */
     static public function ctrActualizarRegistro()
     {
-        if (isset($_POST['actualizarNombre'])) { #pregunto si viene la variable actaulizarNombre
+        if (isset($_POST['actualizarNombre'])) { #pregunto si viene la variable actualizarNombre
             # Verificacmos si existe una contraseña nueva
             if ($_POST["actualizarPassword"] != "") {
                 $password = $_POST["actualizarPassword"];

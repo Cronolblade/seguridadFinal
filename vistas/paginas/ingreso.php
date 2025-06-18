@@ -22,7 +22,7 @@
         <?php
         #En este caso utilizaremos un metodo no estatico porque se necesita una respuesta inmediata
         $ingreso = new ControladorFormularios();
-        $ingreso->ctrIngreso(); #Metodo por construir aun
+        $ingreso->ctrIngreso();
         ?>
         <button type="submit" class="btn btn-primary">Ingresar</button>
     </form>

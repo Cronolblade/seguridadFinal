@@ -6,7 +6,6 @@
      y para el tono un bn-info-->
 
     <form class="p-5 bg-info" method="post">
-        <!--<h1>Registro</h1>--> <!--para diferenciar las paginas-->
         <div class="form-group">
             <label for="nombre">Nombre:</label>
             <div class="input-group">

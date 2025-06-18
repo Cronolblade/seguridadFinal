@@ -7,13 +7,6 @@ if (isset($_GET["id"])) {
     $item = "id";
     $valor = $_GET["id"];
     $usuario = ControladorFormularios::ctrSeleccionarRegistros($item, $valor);
-
-    /* 
-    //imprimimos la variable $usuario
-    echo'<pre>';
-    print_r($usuario);
-    echo'<pre>';
-    */
 }
 
 ?>

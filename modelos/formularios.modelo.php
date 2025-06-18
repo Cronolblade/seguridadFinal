@@ -19,8 +19,6 @@ class ModeloFormularios
         } else { #si no se ejecuta retorna el error
             print_r(Conexion::conectar()->errorInfo());
         }
-        #$stmt->close(); #error del VSC
-        #$stmt = null;
     }
 
     /*====== Seleccionar registros ======*/
@@ -37,8 +35,6 @@ class ModeloFormularios
             $stmt->execute();
             return $stmt->fetch();//devuelve un solo valor
         }
-        #$stmt->close(); #error del VSC
-        #$stmt = null;
     }
 
     /*===== Actualizar registro ===== */
@@ -56,8 +52,6 @@ class ModeloFormularios
             print_r($stmt->errorInfo());
             return "error";
         }
-        #$stmt->close(); #error del VSC
-        #$stmt = null;
     }
 
     /*==== Eliminar registro ==== */

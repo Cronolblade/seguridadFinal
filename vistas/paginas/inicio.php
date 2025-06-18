@@ -48,7 +48,7 @@ $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null, null);
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                             <?php #hacemos el pedido al controlador --- metodo no estatico
                                 $eliminar = new ControladorFormularios();
-                                $eliminar->ctrElminarRegistro(); //falta crear el metodo
+                                $eliminar->ctrElminarRegistro();
                                 ?>
                         </form>
                     </div>
