@@ -1,0 +1,17 @@
+target/
+build/
+
+### Logs ###
+*.log
+
+### IDEs ###
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+.vscode/
+
+### Artefactos Empaquetados ###
+*.jar
+*.war
